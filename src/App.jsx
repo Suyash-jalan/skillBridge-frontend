@@ -531,7 +531,7 @@ export default function App() {
       <header className="minimal-topbar">
         <div className="brand-pill" onClick={handleReset}>
           <span className="brand-icon">✦</span>
-          <span className="brand-title">CareerLens</span>
+          <span className="brand-title">SkillBridge</span>
         </div>
       </header>
 
@@ -573,12 +573,12 @@ export default function App() {
 
       {/* Huge Outline Text Watermark at the Bottom */}
       <div className="bg-watermark">
-        <span>CAREER LENS</span>
+        <span>SKILL BRIDGE</span>
       </div>
 
       {/* Footer */}
       <footer className="minimal-footer">
-        <span>© 2026 CareerLens AI Engine · Role Analysis Template</span>
+        <span>© 2026 SkillBridge AI Engine · Role Analysis Template</span>
       </footer>
     </div>
   )
