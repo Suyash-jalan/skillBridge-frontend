@@ -527,13 +527,11 @@ export default function App() {
         <div className="top-fade-gradient" />
       </div>
 
-      {/* Minimal Top Brand Bar */}
-      <header className="minimal-topbar">
-        <div className="brand-pill" onClick={handleReset}>
-          <span className="brand-icon">✦</span>
-          <span className="brand-title">SkillBridge</span>
-        </div>
-      </header>
+      {/* Huge Outline Text Watermark at the Top */}
+      <div className="bg-watermark">
+        <span>SKILL BRIDGE</span>
+      </div>
+
 
       {/* Main Content Area */}
       <main className="app-main-viewport">
@@ -570,11 +568,6 @@ export default function App() {
           </div>
         )}
       </main>
-
-      {/* Huge Outline Text Watermark at the Bottom */}
-      <div className="bg-watermark">
-        <span>SKILL BRIDGE</span>
-      </div>
 
       {/* Footer */}
       <footer className="minimal-footer">
